@@ -1,7 +1,0 @@
-{
-  "env": {
-    "GITHUB_API_ENDPOINT": "https://api.github.com",
-    "HOST": "https://www.couponrich.com",
-    "ApiDomain": "https://d.couponrich.com"
-  }
-}

@@ -304,6 +304,9 @@ h1, h2, h3, h4, h5,
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
+	@include media-breakpoint-down(md) {
+		background-image: none !important;
+	}
 	.overlay{
 		position: absolute;
 		width: 50%;
@@ -314,6 +317,9 @@ h1, h2, h3, h4, h5,
 		content: '';
 		opacity: .08;
 		background: $black;
+		@include media-breakpoint-down(md) {
+			width: 100%;
+		}
 		@include gradient-background();
 	}
 	&.hero-wrap-2{

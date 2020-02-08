@@ -8,7 +8,7 @@ class Index extends React.Component {
       <>
         <div>
           <div className='hero-wrap js-fullheight'
-            style={{ backgroundImage: "url('./static/eventalk/images/bg_1.jpg')" }}>
+            style={{ backgroundImage: "url('./static/eventalk/images/banner.jpg')" }}>
             <div className='overlay' />
             <div className='container'>
               <div className='row no-gutters slider-text js-fullheight align-items-center justify-content-start'
@@ -139,7 +139,7 @@ class Index extends React.Component {
                   <div className='col-md-7 text-center heading-section heading-section-white ftco-animate'>
                     <h2>Track your order</h2>
                     <p>Keep track of your clothes with just a simple click.</p>
-                    <div className='row d-flex justify-content-center mt-4 mb-4'>
+                    <div className='row d-flex justify-content-center mt-5 mb-5'>
                       <div className='col-md-8'>
                         <form action='#' className='subscribe-form'>
                           <div className='form-group d-flex'>
@@ -175,11 +175,8 @@ class Index extends React.Component {
                           </span>
                         </div>
                         <div className='text'>
-                          <p className='mb-4'>Far far away, behind the word mountains, far from the countries Vokalia
-                            and
-                            Consonantia, there live the blind texts.</p>
+                          <p className='mb-4'>Quick and easy booking, return on time as expected.</p>
                           <p className='name'>Roger Scott</p>
-                          <span className='position'>Marketing Manager</span>
                         </div>
                       </div>
                     </div>
@@ -192,11 +189,8 @@ class Index extends React.Component {
                           </span>
                         </div>
                         <div className='text'>
-                          <p className='mb-4'>Far far away, behind the word mountains, far from the countries Vokalia
-                            and
-                            Consonantia, there live the blind texts.</p>
+                          <p className='mb-4'>They pick up at our hotel and deliver at the time we want. Seamless service. Would use again if they have at other cities too.</p>
                           <p className='name'>Roger Scott</p>
-                          <span className='position'>Interface Designer</span>
                         </div>
                       </div>
                     </div>
@@ -209,45 +203,8 @@ class Index extends React.Component {
                           </span>
                         </div>
                         <div className='text'>
-                          <p className='mb-4'>Far far away, behind the word mountains, far from the countries Vokalia
-                            and
-                            Consonantia, there live the blind texts.</p>
+                          <p className='mb-4'>Much easy picking their offers thanks to items count. English supporting staff. Paid in VND only.</p>
                           <p className='name'>Roger Scott</p>
-                          <span className='position'>UI Designer</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className='item'>
-                      <div className='testimony-wrap text-center py-4 pb-5'>
-                        <div className='user-img mb-4'
-                          style={{ backgroundImage: 'url(./static/eventalk/images/person_1.jpg)' }}>
-                          <span className='quote d-flex align-items-center justify-content-center'>
-                            <i className='icon-quote-left' />
-                          </span>
-                        </div>
-                        <div className='text'>
-                          <p className='mb-4'>Far far away, behind the word mountains, far from the countries Vokalia
-                            and
-                            Consonantia, there live the blind texts.</p>
-                          <p className='name'>Roger Scott</p>
-                          <span className='position'>Web Developer</span>
-                        </div>
-                      </div>
-                    </div>
-                    <div className='item'>
-                      <div className='testimony-wrap text-center py-4 pb-5'>
-                        <div className='user-img mb-4'
-                          style={{ backgroundImage: 'url(./static/eventalk/images/person_1.jpg)' }}>
-                          <span className='quote d-flex align-items-center justify-content-center'>
-                            <i className='icon-quote-left' />
-                          </span>
-                        </div>
-                        <div className='text'>
-                          <p className='mb-4'>Far far away, behind the word mountains, far from the countries Vokalia
-                            and
-                            Consonantia, there live the blind texts.</p>
-                          <p className='name'>Roger Scott</p>
-                          <span className='position'>System Analyst</span>
                         </div>
                       </div>
                     </div>

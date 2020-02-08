@@ -79,79 +79,55 @@ class Index extends React.Component {
               <div className='row justify-content-center mb-5 pb-3'>
                 <div className='col-md-7 heading-section ftco-animate text-center'>
                   <span className='subheading'>Pricing Tables</span>
-                  <h2 className='mb-1'><span>Our</span> Ticket Pricing</h2>
+                  <h2 className='mb-1'><span>Our</span> Pakage</h2>
                 </div>
               </div>
               <div className='row'>
                 <div className='col-md-4 ftco-animate'>
                   <div className='block-7'>
                     <div className='text-center'>
-                      <h2 className='heading'>Personal</h2>
-                      <span className='price'><sup>$</sup> <span className='number'>85</span></span>
-                      <span className='excerpt d-block'>per Month</span>
-
-                      <h3 className='heading-2 my-4'>Enjoy All The Features</h3>
-
+                      <h2 className='heading'>Small Standard</h2>
+                      <span className='price'><sup>đ</sup> <span className='number'>200k</span></span>
+                      <h3 className='heading-2 my-4'>Returned in 24hrs</h3>
                       <ul className='pricing-text mb-5'>
-                        <li>Conference Seats</li>
-                        <li>Free Wifi</li>
-                        <li>Coffee Breaks</li>
-                        <li>Lunch</li>
-                        <li>Workshops</li>
-                        <li>One Speakers</li>
-                        <li>Papers</li>
+                        <li>5-8 shirts / jackets</li>
+                        <li>2-3 pairs of jeans / trousers</li>
                       </ul>
-
-                      <a href='#' className='btn btn-primary d-block px-2 py-3'>Buy Ticket</a>
+                      <a href='#' className='btn btn-primary d-block px-2 py-3'>Buy Pakage</a>
                     </div>
                   </div>
                 </div>
+
                 <div className='col-md-4 ftco-animate'>
                   <div className='block-7'>
                     <div className='text-center'>
-                      <h2 className='heading'>Small Team</h2>
-                      <span className='price'><sup>$</sup> <span className='number'>200</span></span>
-                      <span className='excerpt d-block'>per Month</span>
-
-                      <h3 className='heading-2 my-4'>Enjoy All The Features</h3>
-
+                      <h2 className='heading'>Medium Standard</h2>
+                      <span className='price'><sup>đ</sup> <span className='number'>200k</span></span>
+                      <h3 className='heading-2 my-4'>Returned in 24hrs</h3>
                       <ul className='pricing-text mb-5'>
-                        <li>Conference Seats</li>
-                        <li>Free Wifi</li>
-                        <li>Coffee Breaks</li>
-                        <li>Lunch</li>
-                        <li>Workshops</li>
-                        <li>One Speakers</li>
-                        <li>Papers</li>
+                        <li>10-15 shirts / jackets</li>
+                        <li>4-5 pairs of jeans / trousers</li>
                       </ul>
-
-                      <a href='#' className='btn btn-primary d-block px-2 py-3'>Buy Ticket</a>
+                      <a href='#' className='btn btn-primary d-block px-2 py-3'>Buy Pakage</a>
                     </div>
                   </div>
                 </div>
+                
                 <div className='col-md-4 ftco-animate'>
                   <div className='block-7'>
                     <div className='text-center'>
-                      <h2 className='heading'>Family Pack</h2>
-                      <span className='price'><sup>$</sup> <span className='number'>499</span></span>
-                      <span className='excerpt d-block'>per Month</span>
-
-                      <h3 className='heading-2 my-4'>Enjoy All The Features</h3>
-
+                      <h2 className='heading'>Large</h2>
+                      <span className='price'><sup>đ</sup> <span className='number'>200k</span></span>
+                      <h3 className='heading-2 my-4'>Returned in 24hrs</h3>
                       <ul className='pricing-text mb-5'>
-                        <li>Conference Seats</li>
-                        <li>Free Wifi</li>
-                        <li>Coffee Breaks</li>
-                        <li>Lunch</li>
-                        <li>Workshops</li>
-                        <li>One Speakers</li>
-                        <li>Papers</li>
+                        <li>>15 shirts / jackets</li>
+                        <li>>5 pairs of jeans / trousers</li>
                       </ul>
-
                       <a href='#' className='btn btn-primary d-block px-2 py-3'>Buy Ticket</a>
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
           </section>

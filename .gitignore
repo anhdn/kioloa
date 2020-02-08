@@ -4,3 +4,13 @@ node_modules/
 *.swo
 .idea
 .next
+.next/build-manifest.json
+.next/server/pages-manifest.json
+.next/server/static/development/pages/_app.js
+.next/server/static/development/pages/_document.js
+.next/static/chunks/styles.js
+.next/static/chunks/styles.js.map
+.next/static/development/pages/_app.js
+.next/static/runtime/main.js
+.next/static/runtime/webpack.js
+.next/static/runtime/webpack.js.map

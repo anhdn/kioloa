@@ -58,8 +58,7 @@ class Header extends React.Component {
                 <ImgLogo src='./static/logo.svg' alt='Logo' />
               </Link>
             </div>
-            <div className='col-lg-3 col-3'>
-            </div>
+            <div className='col-lg-3 col-3' />
           </div>
         </div>
       </HeaderComponent>

@@ -29,49 +29,6 @@ class Index extends React.Component {
             </div>
           </div>
 
-          <section className='ftco-section services-section bg-light'>
-            <div className='container'>
-              <div className='row d-flex'>
-                <div className='col-md-3 d-flex align-self-stretch ftco-animate'>
-                  <div className='media block-6 services d-block'>
-                    <div className='icon'><span className='flaticon-placeholder' /></div>
-                    <div className='media-body'>
-                      <h3 className='heading mb-3'>Venue</h3>
-                      <p> 203 Fake St. Mountain View, San Francisco, California, USA</p>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-3 d-flex align-self-stretch ftco-animate'>
-                  <div className='media block-6 services d-block'>
-                    <div className='icon'><span className='flaticon-world' /></div>
-                    <div className='media-body'>
-                      <h3 className='heading mb-3'>Transport</h3>
-                      <p>A small river named Duden flows by their place and supplies.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-3 d-flex align-self-stretch ftco-animate'>
-                  <div className='media block-6 services d-block'>
-                    <div className='icon'><span className='flaticon-hotel' /></div>
-                    <div className='media-body'>
-                      <h3 className='heading mb-3'>Hotel</h3>
-                      <p>A small river named Duden flows by their place and supplies.</p>
-                    </div>
-                  </div>
-                </div>
-                <div className='col-md-3 d-flex align-self-stretch ftco-animate'>
-                  <div className='media block-6 services d-block'>
-                    <div className='icon'><span className='flaticon-cooking' /></div>
-                    <div className='media-body'>
-                      <h3 className='heading mb-3'>Restaurant</h3>
-                      <p>A small river named Duden flows by their place and supplies.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-
           <section className='ftco-counter img' id='section-counter'>
             <div className='container'>
               <div className='row d-flex'>

@@ -7904,7 +7904,8 @@ h1, h2, h3, h4, h5,
     left: 0;
     right: 0;
     width: 60%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 15px; }
     .block-7 .btn-primary:hover, .block-7 .btn-primary:focus {
       background: #6b76ff !important;
       color: #fff; }

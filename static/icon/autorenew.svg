@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>autorenew</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,5.99999995 L12,8.99999995 L16,4.99999995 L12,0.999999954 L12,3.99999995 C7.57999998,3.99999995 3.99999997,7.57999998 3.99999997,12 C3.99999997,13.57 4.45999997,15.03 5.23999997,16.26 L6.69999998,14.8 C6.24999998,13.97 5.99999997,13.01 5.99999997,12 C5.99999997,8.68999999 8.68999999,5.99999995 12,5.99999995 L12,5.99999995 Z M18.76,7.73999998 L17.3,9.19999999 C17.74,10.04 18,10.99 18,12 C18,15.31 15.31,18 12,18 L12,15 L7.99999998,19 L12,23 L12,20 C16.42,20 20,16.42 20,12 C20,10.43 19.54,8.96999999 18.76,7.73999998 L18.76,7.73999998 Z" id="path-1"></path>
+    </defs>
+    <g id="autorenew" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Base" fill-rule="nonzero" points="-4.99999828e-08 -4.99999828e-08 24.0000001 -4.99999828e-08 24.0000001 24.0000001 -4.99999828e-08 24.0000001"></polygon>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <g id="Icon" fill-rule="nonzero"></g>
+        <rect id="↳-🎨-Color" fill="#6C76FF" mask="url(#mask-2)" x="0" y="0" width="24" height="24"></rect>
+    </g>
+</svg>

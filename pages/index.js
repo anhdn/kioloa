@@ -1,5 +1,6 @@
 import React from 'react'
 import { connect } from 'react-redux'
+import { Button, Row, Col, Figure } from 'react-bootstrap'
 
 class Index extends React.Component {
   render () {
@@ -14,16 +15,60 @@ class Index extends React.Component {
                 data-scrollax-parent='true'>
                 <div className='col-xl-10 ftco-animate' data-scrollax=" properties: { translateY: '70%' }">
                   <h1 className='mb-4'
-                    data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"> Developer <span>Conference 2019</span>
+                    data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"> Pikn<span>wash</span>
                   </h1>
-                  <p className='mb-4' data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">December 21-24,
-                    2019. Paris, Italy</p>
-                  <div id='timer' className='d-flex mb-3'>
-                    <div className='time' id='days' />
-                    <div className='time pl-4' id='hours' />
-                    <div className='time pl-4' id='minutes' />
-                    <div className='time pl-4' id='seconds' />
-                  </div>
+                  <p className='mb-4' data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">We pick & wash your clothes from anywhere in HCMC.</p>
+                  <Row>
+                    <Col lg= "6" >
+                      <Row>
+                        <Col>
+                          <Figure className='text-center'>
+                            <Figure.Image 
+                            width={80}
+                            height={80}
+                            alt="Pick up & Delivery"
+                            src ="./static/icon/box.svg">
+                            </Figure.Image>
+                            <Figure.Caption>
+                              Pick up & Delivery
+                            </Figure.Caption>
+                          </Figure>
+                        </Col>
+                        <Col>
+                          <Figure className='text-center'>
+                              <Figure.Image 
+                              width={80}
+                              height={80}
+                              alt="Fast turnaround"
+                              src ="./static/icon/24-hours-delivery.svg">
+                              </Figure.Image>
+                              <Figure.Caption>
+                                Fast turnaround
+                              </Figure.Caption>
+                            </Figure>
+                        </Col>
+                        <Col>
+                          <Figure className='text-center'>
+                              <Figure.Image 
+                              width={80}
+                              height={80}
+                              alt="English"
+                              src ="./static/icon/operator-avatar.svg">
+                              </Figure.Image>
+                              <Figure.Caption>
+                                English
+                              </Figure.Caption>
+                            </Figure>
+                        </Col>
+                      </Row>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col lg="6">
+                      <Button variant="primary" size="lg" block>Book now</Button>
+                      <Button variant="outline-primary" block> Track your order</Button> 
+                    </Col>     
+                  </Row>                 
                 </div>
               </div>
             </div>

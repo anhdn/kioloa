@@ -47,7 +47,7 @@ export default class extends Document {
     const description = ''
     return (
       <Helmet>
-        <title>Eventalk - Free Bootstrap 4 Template by Colorlib</title>
+        <title>Piknwash</title>
         <meta charSet='utf-8' />
         <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no' />
         <link href='https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900'

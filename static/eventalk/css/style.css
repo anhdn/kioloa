@@ -7494,12 +7494,20 @@ h1, h2, h3, h4, h5,
     background: -ms-linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
     background: linear-gradient(45deg, #6b75ff 0%, #6b75ff 0%, #59b7ff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b75ff', endColorstr='#59b7ff', GradientType=1 ); }
+  @media (max-width: 991.98px) {
+    .hero-wrap {
+      background-image: none !important;
+    }
+    .hero-wrap .overlay {
+      width: 100%;
+    }
+  }
   .hero-wrap.hero-wrap-2 .overlay {
     width: 100%;
     opacity: .05; }
 
 .slider-text h1 {
-  font-size: 64px;
+  font-size: 50px;
   color: #6b76ff;
   line-height: 1.2;
   font-weight: 200;
@@ -7521,7 +7529,7 @@ h1, h2, h3, h4, h5,
     font-weight: 700; }
 
 .slider-text p {
-  font-size: 20px;
+  font-size: 15px;
   line-height: 1.5;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.8); }
@@ -7904,7 +7912,8 @@ h1, h2, h3, h4, h5,
     left: 0;
     right: 0;
     width: 60%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    margin-bottom: 15px; }
     .block-7 .btn-primary:hover, .block-7 .btn-primary:focus {
       background: #6b76ff !important;
       color: #fff; }

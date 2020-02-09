@@ -304,6 +304,9 @@ h1, h2, h3, h4, h5,
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
+	@include media-breakpoint-down(md) {
+		background-image: none !important;
+	}
 	.overlay{
 		position: absolute;
 		width: 50%;
@@ -314,6 +317,9 @@ h1, h2, h3, h4, h5,
 		content: '';
 		opacity: .08;
 		background: $black;
+		@include media-breakpoint-down(md) {
+			width: 100%;
+		}
 		@include gradient-background();
 	}
 	&.hero-wrap-2{
@@ -326,7 +332,7 @@ h1, h2, h3, h4, h5,
 
 .slider-text{
 	h1 {
-		font-size: 64px;
+		font-size: 50px;
 		color: $secondary;
 		line-height: 1.2;
 		font-weight: 200;
@@ -342,8 +348,8 @@ h1, h2, h3, h4, h5,
 	  -webkit-text-fill-color: transparent;
 	}
 	p {
-		font-size: 20px;
-		line-height: 1.5;
+		font-size: 15px;
+		line-height: 1.2;
 		font-weight: 300;
 		color: rgba(0,0,0,.8);
 		strong{
@@ -782,6 +788,7 @@ h1, h2, h3, h4, h5,
 		right: 0;
 		width: 60%;
 		margin: 0 auto;
+		margin-bottom: 15px;
 		&:hover, &:focus{
 			background: $primary !important; 
 			color: $white;

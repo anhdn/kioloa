@@ -40,12 +40,3 @@ jobs:
           APPLICATION_CREDENTIALS: ${{ secrets.GCP_SA_KEY }}
         with:
           args: app deploy app.yaml --quiet --version v1
-
-      #      - uses: actions/checkout@master
-      - name: Send telegram
-        uses: appleboy/telegram-action@master
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
-          TELEGRAM_TO: ${{ secrets.TELEGRAM_TO }}
-        with:
-          args: couponrich-web - Released ${{ github.event_name }} to GCP

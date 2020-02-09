@@ -19,9 +19,9 @@ let OrderForm = props => {
     return (
       <Form noValidate onSubmit={handleSubmit}>
         <Form.Label>
-          <h1>
+          <h3>
             Create Order
-          </h1>
+          </h3>
         </Form.Label>
         <Form.Label>
           Personal Information
@@ -38,9 +38,9 @@ let OrderForm = props => {
             </Col>
             <Col>
               <Field 
-                name="wards"
+                name="state"
                 component={FieldInput}
-                placeholder ="Wards"
+                placeholder ="State"
               >
               </Field>
             </Col>
@@ -62,6 +62,7 @@ let OrderForm = props => {
             placeholder ="Full Name">
           </Field>
         </Form.Group>
+
         <Form.Group>
           <Field
             name="phone"
@@ -69,6 +70,7 @@ let OrderForm = props => {
             placeholder ="Phone Number">
           </Field>
         </Form.Group>
+
         <Form.Group>
           <Field
             name="email"
@@ -76,9 +78,29 @@ let OrderForm = props => {
             component={FieldInput}
             placeholder ="Email Address">
           </Field>
+          
         </Form.Group>
-
-        <Button type="submit">Submit</Button>
+        
+        <Form.Label>
+          Payment method
+        </Form.Label>
+        <Form.Group>
+          <Form.Row>
+            <Col>
+              <Field name="payment" component="input" label="COD" type="radio" value="cod" />{' '}
+              COD
+            </Col>
+            <Col>
+              <Field name="payment" component="input" type="radio" value="visa" />{' '}
+                Visa
+            </Col>
+            <Col>
+              <Field name="payment" component="input" type="radio" value="atm" />{' '}
+                ATM
+            </Col>
+          </Form.Row>
+        </Form.Group>
+        <Button className="text-align-center" type="submit" block>Submit</Button>
       </Form>
     )
   }

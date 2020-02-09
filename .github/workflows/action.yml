@@ -13,9 +13,8 @@ jobs:
       matrix:
         node_version: [10]
 
-
     steps:
-     - uses: workflows/setup-node
+     - uses: actions/checkout@v2
      - name: Use Node.js ${{ matrix.node_version }}
        uses: actions/setup-node@v1
        with:

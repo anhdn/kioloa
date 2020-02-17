@@ -19,14 +19,43 @@ let OrderForm = props => {
     return (
       <Form noValidate onSubmit={handleSubmit}>
         <Form.Label>
-          <h3>
-            Create Order
-          </h3>
+          Pick up
         </Form.Label>
+        <Form.Group controlId="pick-up">
+          <Form.Row>
+            <Col>
+              <Field 
+                name="pick-up-city"
+                component={FieldInput}
+                placeholder ="City"
+              >
+              </Field>
+            </Col>
+            <Col>
+              <Field 
+                name="pick-up-state"
+                component={FieldInput}
+                placeholder ="State"
+              >
+              </Field>
+            </Col>
+          </Form.Row>
+        </Form.Group> 
+        <Form.Row>
+            <Col>
+              <Field
+                name="pick-up-address"
+                component={FieldInput}
+                placeholder ="Address">
+              </Field>
+            </Col>   
+        </Form.Row>
+        <hr>
+        </hr>
         <Form.Label>
-          Personal Information
+          Delivery
         </Form.Label>
-        <Form.Group controlId="adrress">
+        <Form.Group controlId="delivery">
           <Form.Row>
             <Col>
               <Field 
@@ -46,15 +75,19 @@ let OrderForm = props => {
             </Col>
           </Form.Row>
         </Form.Group> 
-
         <Form.Group>
-          <Field
-            name="address"
-            component={FieldInput}
-            placeholder ="Address">
-          </Field>
+            <Field
+              name="address"
+              component={FieldInput}
+              placeholder ="Address">
+            </Field>
         </Form.Group>
-
+        <hr>
+        </hr>
+        <Form.Label>
+          Personal Information
+        </Form.Label>
+        
         <Form.Group>
           <Field
             name="fullname"

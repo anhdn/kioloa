@@ -19,6 +19,9 @@ class CreateOrder extends React.Component {
         <div className='container pt-4'>
           <Row>
             <Col md={6} sm={12}>
+              <OrderForm onSubmit={this.submit}></OrderForm>
+            </Col>
+            <Col md={6} sm={12} className='mt-3'>
               <Card>
                 <Card.Img variant="top" />
                 <Card.Body>
@@ -26,7 +29,7 @@ class CreateOrder extends React.Component {
                     My cart
                   </Card.Title>
                   <Card.Text>
-                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                    Some quick example text to build on the card title and make up the bulk of the card's content.
                   </Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
@@ -40,14 +43,11 @@ class CreateOrder extends React.Component {
                     <b>Total : 100.000 VND</b>
                   </ListGroupItem>
                 </ListGroup>
-                
+
               </Card>
             </Col>
-            <Col md={6} sm={12}>
-              <OrderForm onSubmit={this.submit}></OrderForm>
-            </Col>
           </Row>
-          
+
         </div>
       </section>
     )

@@ -1,17 +1,20 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { Row,Col, Card, ListGroup, ListGroupItem} from 'react-bootstrap'
-import OrderForm from 'components/order-form'
+import AddressForm from 'components/AddressForm'
 import PropTypes from 'prop-types'
 import { createOrder } from 'actions/order'
 class CreateOrder extends React.Component {
 
-  static async getInitialProps (ctx) {
-    console.log('getInitialProps ==> ')
-    createOrder()
+  // static async getInitialProps (ctx) {
+  //   createOrder()
+  // }
+  handleInputValue(data) {
+    console.log('data form ==>', data)
   }
+
   submit = values =>{
-    console.log(values)
+    console.log('test==>',  values);
   }
   render () {
     return (
@@ -19,7 +22,10 @@ class CreateOrder extends React.Component {
         <div className='container pt-4'>
           <Row>
             <Col md={6} sm={12}>
-              <OrderForm onSubmit={this.submit}></OrderForm>
+              <AddressForm
+                handleInputValue={this.handleInputValue}
+                onSubmit={this.submit}
+              ></AddressForm>
             </Col>
             <Col md={6} sm={12} className='mt-3'>
               <Card>
